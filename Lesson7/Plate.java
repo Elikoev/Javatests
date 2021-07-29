@@ -42,3 +42,4 @@ public class Plate {
                 "Текущее значение еды в тарелке [%s] = %s.\n\n",namePlate,countAddEat, namePlate,food));
     }
 }
+//Еду добавили, проверили что тарелка не пуста

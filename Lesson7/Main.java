@@ -8,7 +8,8 @@ public class Main {
         plate.addEatToPlate(5);
 
     }
-
+ ///создаём массив котов и его кормим.
+    //можно создавать разные тарелки и кормить из них.
     static void massCatDoTask(Plate plate){
         Cat [] cats = new Cat[] {
           new Cat("Shelby",5),
