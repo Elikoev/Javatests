@@ -1,6 +1,6 @@
 package Javatests.Lesson6;
 
-public class Main extends Animals{
+public abstract class Main extends Animals{
     public static void main(String[] args) {
         createDog();
         createCat();

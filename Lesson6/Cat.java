@@ -37,7 +37,7 @@ public class Cat extends Animals {
     }
 
     @Override
-    protected void doSail(int distance) {
+    public void doSail(int distance) {
         System.out.println("\t Раб, ты забыл что коты не плавают?");
     }
 

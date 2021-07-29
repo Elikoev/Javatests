@@ -1,6 +1,6 @@
 package Javatests.Lesson6;
 
-public class Animals {
+public abstract class Animals {
     private String name;
     private int runMaxDistance;
     private int sailMaxDistance;
@@ -26,14 +26,6 @@ public class Animals {
         return sailMaxDistance;
     }
 
-    protected void doSail(int distance){
-        System.out.println(
-                String.format("\t %s : пробежал %s м. %n",name,distance));
-
+    public abstract void doSail(int distance);
+    public abstract void doRun( int distance);
     }
-    public void doRun( int distance){
-        System.out.println(
-                String.format("\t %s : пробежал %s м. %n",name,distance));
-    }
-
-}

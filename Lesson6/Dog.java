@@ -28,7 +28,7 @@ public class Dog extends Animals{
     }
 
     @Override
-    protected void doSail(int distance) {
+    public void doSail(int distance) {
         if (sailMaxDistance > distance) {
             System.out.print(
                     String.format("\t Пёс %s : проплыл %s метров %n", name, distance));
